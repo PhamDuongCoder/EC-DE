@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/LENOVO/Documents/GitHub/EC-DE/build/_deps/eigen3-src/test/determinant.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "determinant_2"
+	}
+}

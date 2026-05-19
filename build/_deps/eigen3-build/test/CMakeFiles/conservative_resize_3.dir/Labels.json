@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/LENOVO/Documents/GitHub/EC-DE/build/_deps/eigen3-src/test/conservative_resize.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "conservative_resize_3"
+	}
+}

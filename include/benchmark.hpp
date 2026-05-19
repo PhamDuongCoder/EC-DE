@@ -3,6 +3,8 @@
 #include <string>
 #include <limits>
 
+using namespace std;
+
 // Mô tả đầy đủ một bài toán benchmark
 struct BenchmarkProblem {
     std::string  name;

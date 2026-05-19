@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/LENOVO/Documents/GitHub/EC-DE/build/_deps/eigen3-src/unsupported/test/special_packetmath.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "special_packetmath_3"
+	}
+}

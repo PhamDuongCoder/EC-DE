@@ -8,15 +8,15 @@ static constexpr double PI = std::numbers::pi;
 
 double sphere(const Individual& x) {
     double sum = 0.0;
-    for (double xi : x) sum += xi * xi;
+    for (int i = 0; i < x.size(); ++i) sum += x(i) * x(i);
     return sum;
 }
 
 double rosenbrock(const Individual& x) {
     double sum = 0.0;
-    for (size_t i = 0; i + 1 < x.size(); ++i) {
-        double a = x[i+1] - x[i] * x[i];
-        double b = 1.0 - x[i];
+    for (int i = 0; i + 1 < x.size(); ++i) {
+        double a = x(i+1) - x(i) * x(i);
+        double b = 1.0 - x(i);
         sum += 100.0 * a * a + b * b;
     }
     return sum;
@@ -24,7 +24,8 @@ double rosenbrock(const Individual& x) {
 
 double rastrigin(const Individual& x) {
     double sum = 10.0 * static_cast<double>(x.size());
-    for (double xi : x) {
+    for (int i = 0; i < x.size(); ++i) {
+        double xi = x(i);
         sum += xi * xi - 10.0 * std::cos(2.0 * PI * xi);
     }
     return sum;

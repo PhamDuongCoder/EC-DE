@@ -17,6 +17,14 @@ else()
     add_compile_options(-Wall -Wextra -O2)
 endif()
 
+# ── Fetch Eigen3 ─────────────────────────────────────────────────────────────
+include(FetchContent)
+FetchContent_Declare(
+    Eigen3
+    URL https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz
+)
+FetchContent_MakeAvailable(Eigen3)
+
 # ── Thư viện chung (shared library cho tất cả executables) ──────────────────
 add_library(core STATIC
     src/benchmark.cpp
@@ -26,6 +34,7 @@ add_library(core STATIC
 )
 
 target_include_directories(core PUBLIC include)
+target_link_libraries(core PUBLIC Eigen3::Eigen)
 
 # ── Executables ──────────────────────────────────────────────────────────────
 add_executable(run_main      experiments/main.cpp)

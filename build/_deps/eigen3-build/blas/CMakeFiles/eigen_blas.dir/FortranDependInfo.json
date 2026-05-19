@@ -1,0 +1,23 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "C:/Users/LENOVO/Documents/GitHub/EC-DE/build/_deps/eigen3-build/blas",
+	"dir-cur-src" : "C:/Users/LENOVO/Documents/GitHub/EC-DE/build/_deps/eigen3-src/blas",
+	"dir-top-bld" : "C:/Users/LENOVO/Documents/GitHub/EC-DE/build",
+	"dir-top-src" : "C:/Users/LENOVO/Documents/GitHub/EC-DE",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"_deps\\eigen3-src"
+	],
+	"language" : "Fortran",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/LENOVO/Documents/GitHub/EC-DE/build/_deps/eigen3-build/blas",
+	"submodule-ext" : ".smod",
+	"submodule-sep" : "@"
+}

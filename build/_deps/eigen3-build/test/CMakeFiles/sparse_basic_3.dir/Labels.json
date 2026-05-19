@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/LENOVO/Documents/GitHub/EC-DE/build/_deps/eigen3-src/test/sparse_basic.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "sparse_basic_3"
+	}
+}

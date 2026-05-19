@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/LENOVO/Documents/GitHub/EC-DE/build/_deps/eigen3-src/test/first_aligned.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "first_aligned"
+	}
+}
