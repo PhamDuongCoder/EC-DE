@@ -1,0 +1,4 @@
+Function,DE,GA,Winner
+Sphere,1.14e-11,0.0675,DE
+Rosenbrock,25.5334,54.6517,DE
+Rastrigin,158.573,0.170388,GA
